@@ -1,1 +1,0 @@
-# lucidly.github.io
