@@ -1,0 +1,265 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+body, html {
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 100%;
+	color: #fff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.5s ease;
+}
+
+img {
+	max-width: 100%;
+}
+
+::selection {
+	background-color: #313131; color: #fff;
+}
+
+::-moz-selection {
+	background-color: #313131; color: #fff;
+}
+
+nav {
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	z-index: 2;
+	text-align: right;
+	padding: 10px;
+	color: #fff;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+nav ul li {
+	display: inline;
+	border-bottom: 1px solid transparent;
+	margin-left: 2em;
+	padding-bottom: 5px;
+	transition: all 0.5s ease;
+}
+
+nav ul li a {
+	letter-spacing: 0.6em;
+	margin-right: -0.6em;
+	color: #fff;
+}
+
+nav ul li:hover, nav .active {
+	border-bottom: 1px solid #fff;
+}
+
+#title {
+	background-color: #313131;
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.responsiveNav {
+	text-align: left;
+}
+
+.black, .black a {
+	color: #313131;
+	transition: all 0.5s ease;
+}
+
+.black.open, .black.open a {
+	color: #fff;
+}
+
+.black ul li:hover, .black .active {
+	border-bottom: 1px solid #a4a4a4;
+}
+
+#fullpage {
+	position: absolute;
+	top: 0px;
+}
+
+.section {
+	text-align: center;
+}
+
+#section1 {
+	background-color: #ffc6c6;
+	background-size: cover;
+}
+
+#section1 p {
+	display: inline;
+	font-size: 1.3em;
+	letter-spacing: 0.2em;
+}
+
+#section2 ul, #section5 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#section5 ul li {
+	display: inline;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	margin: 0;
+	margin-right: -0.5em;
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+#section2, #section4 {
+	color: #313131;
+}
+
+#section3 img {
+	background-color: #313131;
+	border-radius: 5px;
+}
+
+.wrapper a {
+	color: #313131;
+	border-bottom: 1px solid #fea7a7;
+}
+
+#links a {
+	color: #fff;
+	border: none;
+}
+
+#links a:hover, .navToggle:hover {
+	opacity: 0.5;
+	transition: all 0.5s ease;
+}
+
+.wrapper {
+	max-width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.columns {
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-width: 275px;
+    -moz-column-width: 275px;
+    column-width: 275px;
+    -webkit-column-gap: 75px; 
+    -moz-column-gap: 75px;
+    column-gap: 65px;
+	text-align: left;
+}
+
+.together {
+	display: inline-block;
+	width: 100%;
+}
+
+.responsiveNav {
+	transition: all 0.5s ease;
+	padding: 0px;
+}
+
+.responsiveNav ul li a {
+	display: block;
+}
+
+.responsiveNav.open, .open {
+	background-color: #313131;
+	opacity: 0.8;
+	display: block;
+	height: 100%;
+}
+
+.open ul {
+	height: auto;
+}
+
+.closed ul {
+	height: 0px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.closed ul li {
+	opacity: 0;
+	display: inline;
+}
+
+.open ul {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.open ul li {
+	display: block;
+	text-align: center;
+	padding: 10px 0px;
+	margin-left: 0;
+}
+
+
+.navToggle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	z-index: 3;
+}
+
+#section1 {
+	background: url('background.png') bottom right no-repeat;
+	background-size: cover;
+}
+
+
+@media only screen and (max-width: 1200px) {
+	#section1 {
+		background-position: -100px 0px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.wrapper {
+		padding: 20px;
+	}
+}
+
+@media only screen and (max-width: 605px) {
+	
+	#section1 {
+		background-position: -100px 0px;
+	}
+}
