@@ -42,6 +42,7 @@ $(document).ready(function() {
 		paddingTop: $('nav').height(),
 		paddingBottom: $('nav').height(),
 		scrollOverflow: true,
+		recordHistory: false,
 		
 		onLeave: function(index, nextIndex, direction) {
 			// change navigation text to black on white pages
