@@ -240,7 +240,7 @@ h2 {
 }
 
 #section1 {
-	background: url('background.png') bottom right no-repeat;
+	background: url('background.png') bottom left no-repeat;
 	background-size: cover;
 }
 
