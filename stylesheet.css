@@ -38,7 +38,7 @@ nav {
 	position: fixed;
 	top: 0px;
 	z-index: 2;
-	text-align: right;
+	text-align: center;
 	padding: 10px;
 	color: #fff;
 }
@@ -69,12 +69,14 @@ nav ul li:hover, nav .active {
 	border-bottom: 1px solid #fff;
 }
 
+
 #title {
-	color: #fff;
-	background-color: #313131;
+	color: #ffb5b5;
+	background-color: #fff;
 	max-width: 300px;
 	margin: 0 auto;
 	padding: 5px;
+	font-weight: 300;
 }
 
 .responsiveNav {
@@ -101,6 +103,12 @@ nav ul li:hover, nav .active {
 
 .section {
 	text-align: center;
+}
+
+.section p, .section ul {
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 1.2em;
 }
 
 #section1 {
@@ -154,7 +162,7 @@ h2 {
 }
 
 #links a {
-	color: #313131;
+	color: #5e5e5e;
 	border: none;
 }
 

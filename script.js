@@ -35,8 +35,8 @@ $(document).ready(function() {
 
 	$('#fullpage').fullpage({
 		verticalCentered: true,
-		anchors: ['home', 'work', 'about', 'contact'],
-		sectionsColor: ['#fdb7b7', '#fff', '#313131', '#fff'],
+		anchors: ['home', 'about', 'contact'],
+		sectionsColor: ['#fdb7b7', '#313131', '#fff'],
 		slidesNavigation: true,
 		menu: 'nav',
 		paddingTop: $('nav').height(),
@@ -45,13 +45,14 @@ $(document).ready(function() {
 		recordHistory: false,
 		
 		onLeave: function(index, nextIndex, direction) {
+
 			// change navigation text to black on white pages
-			if ((index != 2  && nextIndex == 2) || (index != 4 && nextIndex == 4)) {
+			if ((index != 3  && nextIndex == 3)) {
 				$('nav').addClass('black');
 			}
 		
 			// change back to white on non-white pages
-			if ((index == 2 || index == 4) && (nextIndex == 1 || nextIndex == 3)) {
+			if ((index == 3) && (nextIndex == 1 || nextIndex == 2)) {
 				$('nav').removeClass('black');
 			}
 		}
