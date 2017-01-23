@@ -147,6 +147,10 @@ h2 {
 	font-size: 2em;
 }
 
+.left {
+	text-align: left;
+}
+
 #section2, #section5 {
 	color: #313131;
 }
