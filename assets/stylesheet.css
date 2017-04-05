@@ -213,12 +213,12 @@ nav ul li:hover, nav .active {
   padding: 5px;
   font-weight: 300; }
 
-#contact ul {
+#contactsection ul {
   list-style: none;
   margin: 0;
   padding: 0; }
 
-#contact ul li {
+#contactsection ul li {
   display: inline; }
 
 #links a {

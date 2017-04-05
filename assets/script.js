@@ -35,7 +35,7 @@ $(document).ready(function() {
 
 	$('#fullpage').fullpage({
 		verticalCentered: true,
-		anchors: ['home-anchor', 'about-anchor', 'contact-anchor'],
+		anchors: ['home', 'about', 'contact'],
 		slidesNavigation: true,
 		menu: 'nav',
 		paddingTop: $('nav').height(),
