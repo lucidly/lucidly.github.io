@@ -156,7 +156,8 @@ nav ul li:hover, nav .active {
 .section p, .section ul {
   letter-spacing: 1px;
   word-spacing: 2px;
-  line-height: 1.2em; }
+  line-height: 1.5em;
+  font-size: 0.95em; }
 
 .wrapper {
   max-width: 900px;
