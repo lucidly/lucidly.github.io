@@ -36,7 +36,6 @@ $(document).ready(function() {
 	$('#fullpage').fullpage({
 		verticalCentered: true,
 		anchors: ['home-anchor', 'about-anchor', 'contact-anchor'],
-		sectionsColor: ['#fdb7b7', '#313131', '#fff'],
 		slidesNavigation: true,
 		menu: 'nav',
 		paddingTop: $('nav').height(),
