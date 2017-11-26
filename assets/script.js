@@ -35,28 +35,12 @@ $(document).ready(function() {
 
 	$('#fullpage').fullpage({
 		verticalCentered: true,
-		anchors: ['home', 'about', 'contact'],
-		slidesNavigation: true,
 		menu: 'nav',
 		paddingTop: $('nav').height(),
-		paddingBottom: $('nav').height(),
 		scrollOverflow: true,
-		recordHistory: false,
-		
-		onLeave: function(index, nextIndex, direction) {
-
-			// change navigation text to black on white pages
-			if ((index != 3  && nextIndex == 3)) {
-				$('nav').addClass('black');
-			}
-		
-			// change back to white on non-white pages
-			if ((index == 3) && (nextIndex == 1 || nextIndex == 2)) {
-				$('nav').removeClass('black');
-			}
-		}
-		
 	});
+
+	$('#wrapper').fadeIn();
 	
 	responsiveNav();
 
