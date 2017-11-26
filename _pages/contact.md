@@ -4,6 +4,12 @@ title: Contact
 permalink: /contact/
 ---
 
+<script>
+$(document).ready(function() {
+	$("nav ul li:nth-child(4)").addClass("active");
+});
+</script>
+
 <div id="contact" class="section dark">
 	<div class="wrapper">
 		<h2>Contact</h2>

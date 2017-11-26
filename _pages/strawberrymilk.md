@@ -18,7 +18,7 @@ $(document).ready(function() {
 <h2>Strawberry Milk Kittea</h2>
 <img src="/assets/work/strawberrymilk1.png" />
 
-<p>A series of illustrations combining two of my favourite things - strawberry milk tea and kittens. They were created with the intention to be printed on various merchandise through sites like Redbubble. The above image has sold most often as a sticker.</p>
+<p>A series of illustrations combining two of my favourite things - strawberry milk tea and kittens. They were created with the intention to be printed on various merchandise through sites like Redbubble.</p>
 
 <img src="/assets/work/strawberrymilk2.png" />
 

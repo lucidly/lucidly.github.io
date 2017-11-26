@@ -1,7 +1,7 @@
 // some really hacked together responsive navigation
 function responsiveNav() {
 	
-	if ($(window).width() <= 700) {
+	if ($(window).width() <= 800) {
 		// show hamburger navigation
 		$('.navToggle').show();
 		$('nav').addClass('responsiveNav');
@@ -40,7 +40,7 @@ $(document).ready(function() {
 		scrollOverflow: true,
 	});
 
-	$('#wrapper').fadeIn();
+	$('#wrapper').fadeIn("slow");
 	
 	responsiveNav();
 
