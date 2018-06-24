@@ -21,15 +21,15 @@ img {
   max-width: 100%; }
 
 ::selection {
-  background-color: #313131;
+  background-color: #454545;
   color: #ffffff; }
 
 ::moz-selection {
-  background-color: #313131;
+  background-color: #454545;
   color: #ffffff; }
 
 h1, h2, h3 {
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 0.5em;
   margin: 0;
   margin-right: -0.5em; }
@@ -38,7 +38,7 @@ h1 {
   font-size: 2.5em; }
 
 h2 {
-  font-size: 2em; }
+  font-size: 1.5em; }
 
 .light h2 {
   color: #676767;
@@ -50,7 +50,7 @@ h3 {
   color: #fff;
   font-weight: 300;
   text-transform: initial;
-  letter-spacing: initial;
+454545  letter-spacing: initial;
   padding: 10px;
   position: relative;
   top: 50%;
@@ -69,17 +69,17 @@ nav {
   padding: 10px;
   color: #ffffff;
   font-weight: 400;
-  font-size: 1.2em; }
+  font-size: 1.1em; }
   nav ul {
     list-style: none;
     margin-top: 10px;
     padding: 0;
-    text-transform: uppercase; }
+    text-transform: lowercase; }
     nav ul li {
       display: inline;
       border-bottom: 1px solid transparent;
       margin-left: 2em;
-      padding-bottom: 5px;
+      padding-bottom: 10px;
       transition: all 0.5s ease; }
       nav ul li a {
         letter-spacing: 0.6em;
@@ -100,7 +100,7 @@ nav ul li:hover, nav .active {
   display: block; }
 
 .responsiveNav.open, .open {
-  background-color: #313131;
+  background-color: #454545;
   opacity: 0.8;
   display: block;
   height: 100%; }
@@ -164,7 +164,7 @@ nav ul li:hover, nav .active {
   margin-right: auto;
   margin-left: auto; }
   .wrapper a {
-    color: #313131;
+    color: #454545;
     border-bottom: 1px solid #ffc1c1; }
 
 .columns {
@@ -187,15 +187,15 @@ nav ul li:hover, nav .active {
   text-align: left; }
 
 .dark {
-  background-color: #313131;
+  background-color: #454545;
   color: #ffffff; }
 
 .light {
-  background-color: #ffffff;
-  color: #313131; }
+  background-color: #f2f2f2;
+  color: #454545; }
 
 .light h1 {
-  color: #313131; }
+  color: #454545; }
 
 .pink {
   color: #ffffff;
@@ -203,7 +203,7 @@ nav ul li:hover, nav .active {
 
 /* specific section styles */
 #homepage {
-  background: #ffd2d2 url("background.png") bottom left no-repeat;
+  background: #ffdbdb url("background.png") center center no-repeat;
   background-size: cover; }
   #homepage p {
     display: inline;
@@ -216,6 +216,7 @@ nav ul li:hover, nav .active {
   max-width: 300px;
   margin: 0 auto;
   padding: 5px;
+  margin-top: 150px;
   font-weight: 300; }
 
 #contactsection ul {
@@ -227,8 +228,9 @@ nav ul li:hover, nav .active {
   display: inline; }
 
 #links a {
-  color: #5e5e5e;
+  color: #fff;
   border: none;
+  margin-right: 10px;
 }
 
 #links a:hover, .navToggle:hover {
@@ -270,7 +272,7 @@ nav ul li:hover, nav .active {
   height: 100%;
   visibility: hidden;
   text-align: center !important;
-  background-color: #313131;
+  background-color: #454545;
   opacity: 0;
   transition: opacity .5s ease;
   -moz-transition: opacity .5s ease;
@@ -307,3 +309,22 @@ nav ul li:hover, nav .active {
 @media only screen and (max-width: 605px) {
   #homepage {
     background-position: -100px 0px; } }
+
+
+@media only screen and (max-width: 1000px) {
+	#homepage {
+		background: #ffdbdb url("background_m.png") left center no-repeat;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	#homepage {
+		background: #ffdbdb url("background_m2.png") left center no-repeat;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	#homepage {
+		background: #ffdbdb url("background_m3.png") left center no-repeat;
+	}
+}

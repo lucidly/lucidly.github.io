@@ -35,23 +35,28 @@ $(document).ready(function() {
 
 	$('#fullpage').fullpage({
 		verticalCentered: true,
-		anchors: ['home', 'about', 'contact'],
+		anchors: ['home', 'about', 'work', 'contact'],
 		slidesNavigation: true,
 		menu: 'nav',
 		paddingTop: $('nav').height(),
 		paddingBottom: $('nav').height(),
 		scrollOverflow: true,
 		recordHistory: false,
-		
+
 		onLeave: function(index, nextIndex, direction) {
 
+			h = 1;
+			a = 2;
+			w = 3;
+			c = 4;
+
 			// change navigation text to black on white pages
-			if ((index != 3  && nextIndex == 3)) {
+			if (index != w && nextIndex == w) {
 				$('nav').addClass('black');
 			}
 		
 			// change back to white on non-white pages
-			if ((index == 3) && (nextIndex == 1 || nextIndex == 2)) {
+			if (index == w && nextIndex != w) {
 				$('nav').removeClass('black');
 			}
 		}
@@ -59,6 +64,14 @@ $(document).ready(function() {
 	});
 	
 	responsiveNav();
+
+
+$("#fatality").hide();
+
+$("#ff").click(function() {
+  	 $("#fatality").show();
+});
+
 
 
 });
