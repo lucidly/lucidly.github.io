@@ -311,20 +311,23 @@ nav ul li:hover, nav .active {
     background-position: -100px 0px; } }
 
 
-@media only screen and (max-width: 1000px) {
-	#homepage {
-		background: #ffdbdb url("background_m.png") left center no-repeat;
-	}
-}
-
 @media only screen and (max-width: 800px) {
 	#homepage {
-		background: #ffdbdb url("background_m2.png") left center no-repeat;
+		background: #ffdbdb url("background_m.png") center center no-repeat;
+		background-size: cover;
 	}
 }
 
 @media only screen and (max-width: 700px) {
 	#homepage {
-		background: #ffdbdb url("background_m3.png") left center no-repeat;
+		background: #ffdbdb url("background_m2.png") center center no-repeat;
+		background-size: cover;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#homepage {
+		background: #ffdbdb url("background_m3.png") center center no-repeat;
+		background-size: cover;
 	}
 }
