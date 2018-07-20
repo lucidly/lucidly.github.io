@@ -164,8 +164,8 @@ nav ul li:hover, nav .active {
   margin-right: auto;
   margin-left: auto; }
   .wrapper a {
-    color: #454545;
-    border-bottom: 1px solid #ffc1c1; }
+    color: #ffc1c1;
+    border-bottom: 0px solid #ffc1c1; }
 
 .columns {
   -webkit-column-count: 2;
