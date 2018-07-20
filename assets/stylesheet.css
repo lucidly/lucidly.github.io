@@ -165,6 +165,7 @@ nav ul li:hover, nav .active {
   margin-left: auto; }
   .wrapper a {
     color: #ffc1c1;
+    font-weight: 400;
     border-bottom: 0px solid #ffc1c1; }
 
 .columns {
