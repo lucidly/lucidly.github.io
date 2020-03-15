@@ -13,6 +13,6 @@ $(document).ready(function() {
 <div class="wrapper">
 
 <img src="/assets/sticker.png"/>
-<p>Stickers are currently available on my <a href="lucidly.redbubble.com">Redbubble</a> shop!</p>
+<p>Stickers are currently available on my <a href="https://lucidly.redbubble.com" target="_blank">Redbubble</a> shop!</p>
 </div>
 </div>
