@@ -10,7 +10,22 @@ body, html {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 100%;
-  color: #ffffff; }
+  color: #ffffff; 
+}
+
+body {
+  opacity: 0;
+  -webkit-transition: opacity 0.6s ease-in;
+  -moz-transition: opacity 0.6s ease-in;
+  -o-transition: opacity 0.6s ease-in;
+  -ms-transition: opacity 0.6s ease-in;
+  transition: opacity 0.6s ease-in;
+}
+
+body.fadeload {
+  opacity: 1;
+}
+
 
 a {
   text-decoration: none;
@@ -50,7 +65,7 @@ h3 {
   color: #fff;
   font-weight: 300;
   text-transform: initial;
-454545  letter-spacing: initial;
+  letter-spacing: initial;
   padding: 10px;
   position: relative;
   top: 50%;
@@ -331,4 +346,8 @@ nav ul li:hover, nav .active {
 		background: #ffdbdb url("background_m3.png") center center no-repeat;
 		background-size: cover;
 	}
+
+  img {
+    max-width: 100%;
+  }
 }

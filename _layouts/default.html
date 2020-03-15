@@ -25,82 +25,31 @@
 <meta name="msapplication-wide310x150logo" content="/assets/favicon/mstile-310x150.png" />
 <meta name="msapplication-square310x310logo" content="/assets/favicon/mstile-310x310.png" />
 
-<link href="/assets/fontawesome/css/all.css" rel="stylesheet">
 <link rel="stylesheet" href="/assets/jquery.fullPage.css" />
 <link rel="stylesheet" href="/assets/stylesheet.css">
 
 <script src="/assets/jquery-3.2.0.min.js"></script>
 <script src="/assets/scrolloverflow.min.js"></script>
 <script src="/assets/jquery.fullPage.min.js"></script>
+<script src="https://use.fontawesome.com/4219565cda.js"></script>
 <script src="/assets/script.js"></script>
+
 </head>
 
 <body>
   <nav>
-    <div class="navToggle fas fa-bars fa-2x"></div>
+    <div class="navToggle fa fa-navicon fa-2x"></div>
     <ul>
-		<li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
-		<li data-menuanchor="about"><a href="#about">About</a></li>
-		<li data-menuanchor="work"><a href="#work">Work</a></li>
-		<li data-menuanchor="contact"><a href="#contact">Contact</a></li>
-
+      <li><a href="/">Home</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/work/">Work</a></li>
+      <li><a href="/contact/">Contact</a></li>
     </ul>
   </nav>
 
 <div id="fullpage">
 
-
-<div id="homepage" class="section active pink">
-	<div id="title">
-	  <h1>Lucidly</h1>
-	  <p>Illustrator & Designer</p> 
-	</div>
-</div>  
-	
-
-<div id="aboutsection" class="section dark">
-	<div class="wrapper">
-	<h2>About</h2>
-	<br>
-	<br>
-		<div class="columns">
-			<p>Hi! My name is Lily, although I prefer going by Lucidly (often shortened to Lucid) on the internet. It's a lot easier to find me this way, trust me!</p>
-			<p>I'm an illustrator and designer that can create cute illustrations, write code, design websites, and develop games.</p>
-			<p>I have a Bachelor of Science in Interactive Arts + Technology, with concentrations in Design and Interactive Systems.</p>
-			<p>My dream is to make the world a better place with the power of cuteness! I believe cuteness can bring joy even in the unlikeliest of places.</p>
-			<p>Aside from my work, I like playing games. Especially MMOs and RPGs! You can find me in games acquiring massive amounts of wealth, collecting costumes, and exploring hidden areas.</p>
-			<p>If you want to get to know me better, I'd love to become friends!</p>
-		</div>
-	</div>
-</div>
-	
-
-<div id="worksection" class="section light">
-<div class="wrapper">
-	<h2>Work</h2>
-	<br>
-	<p>Something new will be here soon.</p>
-	<p>In the meantime, please check out my <a href="https://www.behance.net/lucidly" target="_blank">Behance</a> portfolio!</p>
-</div>
-</div>
-
-
-<div id="contactsection" class="section dark">
-	<div class="wrapper">
-		<h2>Contact</h2>
-		<br>
-		<p>For any inquiries, you can reach me at lucidly@outlook.com</p>
-		<br>
-		<span class="together">
-				<ul id="links">
-				<li><a class="fab fa-twitter fa-lg" href="https://twitter.com/lucidly" target="_blank"></a></li>
-				<li><a class="fab fa-behance fa-lg" href="https://www.behance.net/lucidly" target="_blank"></a></li>
-				<li><a class="fab fa-github fa-lg" href="https://github.com/lucidly" target="_blank"></a></li>
-				<li></li>
-				</ul>
-		</span>
-	</div>
-</div>
+   {{ content }}
 
 </div>
 

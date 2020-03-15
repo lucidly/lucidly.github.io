@@ -33,6 +33,8 @@ $(window).resize(responsiveNav);
 // fullPage.js functionality
 $(document).ready(function() {
 
+	$("body").addClass("fadeload");
+
 	$('#fullpage').fullpage({
 		verticalCentered: true,
 		anchors: ['home', 'about', 'work', 'contact'],
