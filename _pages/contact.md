@@ -14,6 +14,7 @@ permalink: /contact/
 				<ul id="links">
 				<li><a class="fa fa-behance fa-lg" href="https://www.behance.net/lucidly" target="_blank"></a></li>
 				<li><a class="fa fa-github fa-lg" href="https://github.com/lucidly" target="_blank"></a></li>
+				<li><a class="fa fa-twitter fa-lg" href="https://twitter.com/lucidly" target="_blank"></a></li>
 				<li></li>
 				</ul>
 		</span>
