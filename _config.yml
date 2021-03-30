@@ -25,7 +25,9 @@ username: lucidly
 
 # Build settings
 markdown: kramdown
-gems:
+kramdown:
+  input: GFM
+plugins:
   - jekyll-feed
 include: 
   ['_pages']
